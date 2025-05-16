@@ -1,10 +1,9 @@
 <html>
  <head>
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
  <link rel="manifest" href="manifest.json">
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <title>
-   Transaction Successful
-  </title>
+  <title> Resi</title>
   <script src="https://cdn.tailwindcss.com">
   </script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
@@ -24,7 +23,7 @@
      <p id="shr" class="text-lg font-normal leading-tight">
       Transaction Successful
      </p>
-     <p class="text-sm font-normal text-gray-800 leading-tight">
+     <p contenteditable="true" class="text-sm font-normal text-gray-800 leading-tight">
       06:56 PM on 13 May 2025
      </p>
     </div>
@@ -36,20 +35,21 @@
      </p>
      <div class="flex items-center justify-between">
       <div class="flex items-center space-x-4">
-       <div class="w-12 h-12 rounded-2xl bg-purple-800 flex items-center justify-center">
-        <i class="fas fa-user text-white text-xl">
-        </i>
+       <div id="lpro" class="w-12 h-12 rounded-full bg-purple-800 flex items-center justify-center">
+        <i style="display:none;" class="fas fa-user text-white text-xl"></i>
+        <img style="width:100%;height:100%" class="rounded-full" id="pre">
+        
        </div>
        <div>
-        <p class="text-lg font-normal leading-tight">
+        <p contenteditable="true" class="text-lg font-normal leading-tight">
         NKN
         </p>
-        <p class="text-gray-600 text-sm leading-tight">
+        <p contenteditable="true" class="text-gray-600 text-sm leading-tight">
          +911234567890
         </p>
        </div>
       </div>
-      <p class="font-extrabold text-lg">
+      <p contenteditable="true" class="font-extrabold text-lg">
        ₹0
       </p>
      </div>
@@ -62,7 +62,7 @@
       <span>
        :
       </span>
-      <span class="font-normal">
+      <span contenteditable="true" class="font-normal">
        NKN
       </span>
       <img alt="Green verified checkmark icon" class="w-4 h-4" height="16" src="ver.png" width="16"/>
@@ -85,7 +85,7 @@
        <p class="text-xs text-gray-600 font-normal">
         Message
        </p>
-       <p class="text-base font-normal">
+       <p contenteditable="true" class="text-base font-normal">
         NKN
        </p>
       </div>
@@ -93,7 +93,7 @@
        <p class="text-xs text-gray-600 font-normal">
         Transaction ID
        </p>
-       <p class="text-base font-normal">
+       <p contenteditable="true" class="text-base font-normal">
         T25051318565244848484848
        </p>
       </div>
@@ -103,16 +103,16 @@
        </p>
        <div class="flex items-center justify-between">
         <div class="flex items-center space-x-3">
-         <img alt="Bank logo with blue geometric shapes" class="w-8 h-8 p-1 rounded-xl border-2 border-grey-10" height="36" src="iobbb.png" width="36"/>
-         <p class="text-base font-normal">
+         <img id="bico" style="padding:3px;" alt="Bank logo with blue geometric shapes" class="w-9 h-9 rounded-lg border-2 border-grey-10" height="40" src="bob.png" width="40"/>
+         <p contenteditable="true" class="text-base font-normal">
           XXXXXXXXXXXX8448
          </p>
         </div>
-        <p class="font-normal text-base">
+        <p contenteditable="true" class="font-normal text-base">
          ₹0
         </p>
        </div>
-       <p class="text-gray-500 text-sm mt-1">
+       <p contenteditable="true" class="text-gray-500 text-sm mt-1">
         UTR: 910178484484848
        </p>
       </div>
@@ -130,11 +130,10 @@
    </div>
   </div>
   
-  
+  <input type="file" style="display:none;" id="imageInput" accept="image/*">
   
   <script>
-  
-  document.body.contentEditable = true;
+ //  document.body.contentEditable = true;
   
   document.getElementById('shr').addEventListener('click', async () => {
   try {
@@ -156,6 +155,72 @@
   }
   });
   </script>
+  
+  
+  <script>
+  let bi = {};
+  let bii=[];
+  async function fetbi() {
+  let x = await fetch("https://microintel.github.io/fakeres/bico.json");
+  let xj = await x.json();
+  
+  if (Array.isArray(xj)) {
+  xj.forEach((item) => {
+  bi[item.name] = item.download_url;
+  bii.push(item.download_url);
+  });
+  } else {
+  console.error("GitHub API error:", xj);
+  Swal.fire("Error loading icons", xj.message || "Unknown error", "error");
+  }
+  }
+  
+  fetbi();
+  
+  document.getElementById('bico').addEventListener('click', async () => {
+  if (Object.keys(bi).length === 0) {
+  await fetbi();
+  }
+  
+  const { value: selectedKey } = await Swal.fire({
+  title: 'Select a bank Icon',
+  input: 'select',
+  inputOptions: Object.keys(bi),
+  inputPlaceholder: 'Select',
+  showCancelButton: true,
+  });
+  
+  if (selectedKey) {
+ // Swal.fire(`You selected: ${selectedKey}`);
+  document.getElementById("bico").src = bii[selectedKey];
+  }
+  });
+  </script>
+  
+  <script>
+  const fileInput = document.getElementById('imageInput');
+  const imgElement = document.getElementById('pre');
+  const button = document.getElementById('lpro');
+  
+  // Trigger file input when button is clicked
+  button.addEventListener('click', function() {
+  fileInput.click();
+  });
+  
+  // Load image when file is selected
+  fileInput.addEventListener('change', function() {
+  if (fileInput.files && fileInput.files[0]) {
+  const reader = new FileReader();
+  
+  reader.onload = function(e) {
+  imgElement.src = e.target.result;
+  }
+  
+  reader.readAsDataURL(fileInput.files[0]);
+  }
+  });
+  </script>
+  
  </body>
  
  
