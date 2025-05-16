@@ -1,0 +1,210 @@
+[
+  {
+    "name": "axis.png",
+    "path": "icon/bicon/axis.png",
+    "sha": "58d74a6da3eddb98bac66775b0613c1101e3ad3e",
+    "size": 17617,
+    "url": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/axis.png?ref=main",
+    "html_url": "https://github.com/microintel/fakeres/blob/main/icon/bicon/axis.png",
+    "git_url": "https://api.github.com/repos/microintel/fakeres/git/blobs/58d74a6da3eddb98bac66775b0613c1101e3ad3e",
+    "download_url": "https://raw.githubusercontent.com/microintel/fakeres/main/icon/bicon/axis.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/axis.png?ref=main",
+      "git": "https://api.github.com/repos/microintel/fakeres/git/blobs/58d74a6da3eddb98bac66775b0613c1101e3ad3e",
+      "html": "https://github.com/microintel/fakeres/blob/main/icon/bicon/axis.png"
+    }
+  },
+  {
+    "name": "canara.png",
+    "path": "icon/bicon/canara.png",
+    "sha": "21e93d8f10e770fc297227c37125e7bbd7028706",
+    "size": 9170,
+    "url": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/canara.png?ref=main",
+    "html_url": "https://github.com/microintel/fakeres/blob/main/icon/bicon/canara.png",
+    "git_url": "https://api.github.com/repos/microintel/fakeres/git/blobs/21e93d8f10e770fc297227c37125e7bbd7028706",
+    "download_url": "https://raw.githubusercontent.com/microintel/fakeres/main/icon/bicon/canara.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/canara.png?ref=main",
+      "git": "https://api.github.com/repos/microintel/fakeres/git/blobs/21e93d8f10e770fc297227c37125e7bbd7028706",
+      "html": "https://github.com/microintel/fakeres/blob/main/icon/bicon/canara.png"
+    }
+  },
+  {
+    "name": "hdfc.png",
+    "path": "icon/bicon/hdfc.png",
+    "sha": "42e7b3080047a92607e66b3c73c0d72e60195efc",
+    "size": 14146,
+    "url": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/hdfc.png?ref=main",
+    "html_url": "https://github.com/microintel/fakeres/blob/main/icon/bicon/hdfc.png",
+    "git_url": "https://api.github.com/repos/microintel/fakeres/git/blobs/42e7b3080047a92607e66b3c73c0d72e60195efc",
+    "download_url": "https://raw.githubusercontent.com/microintel/fakeres/main/icon/bicon/hdfc.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/hdfc.png?ref=main",
+      "git": "https://api.github.com/repos/microintel/fakeres/git/blobs/42e7b3080047a92607e66b3c73c0d72e60195efc",
+      "html": "https://github.com/microintel/fakeres/blob/main/icon/bicon/hdfc.png"
+    }
+  },
+  {
+    "name": "i",
+    "path": "icon/bicon/i",
+    "sha": "0ddf2bae71d08623786db120996eea00b75f8237",
+    "size": 2,
+    "url": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/i?ref=main",
+    "html_url": "https://github.com/microintel/fakeres/blob/main/icon/bicon/i",
+    "git_url": "https://api.github.com/repos/microintel/fakeres/git/blobs/0ddf2bae71d08623786db120996eea00b75f8237",
+    "download_url": "https://raw.githubusercontent.com/microintel/fakeres/main/icon/bicon/i",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/i?ref=main",
+      "git": "https://api.github.com/repos/microintel/fakeres/git/blobs/0ddf2bae71d08623786db120996eea00b75f8237",
+      "html": "https://github.com/microintel/fakeres/blob/main/icon/bicon/i"
+    }
+  },
+  {
+    "name": "icici.png",
+    "path": "icon/bicon/icici.png",
+    "sha": "1c34562c429053345d03ff429f7018cb822dd241",
+    "size": 78501,
+    "url": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/icici.png?ref=main",
+    "html_url": "https://github.com/microintel/fakeres/blob/main/icon/bicon/icici.png",
+    "git_url": "https://api.github.com/repos/microintel/fakeres/git/blobs/1c34562c429053345d03ff429f7018cb822dd241",
+    "download_url": "https://raw.githubusercontent.com/microintel/fakeres/main/icon/bicon/icici.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/icici.png?ref=main",
+      "git": "https://api.github.com/repos/microintel/fakeres/git/blobs/1c34562c429053345d03ff429f7018cb822dd241",
+      "html": "https://github.com/microintel/fakeres/blob/main/icon/bicon/icici.png"
+    }
+  },
+  {
+    "name": "idfc.png",
+    "path": "icon/bicon/idfc.png",
+    "sha": "8142d1cb46326ec4bd044fede2240c525f289971",
+    "size": 18523,
+    "url": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/idfc.png?ref=main",
+    "html_url": "https://github.com/microintel/fakeres/blob/main/icon/bicon/idfc.png",
+    "git_url": "https://api.github.com/repos/microintel/fakeres/git/blobs/8142d1cb46326ec4bd044fede2240c525f289971",
+    "download_url": "https://raw.githubusercontent.com/microintel/fakeres/main/icon/bicon/idfc.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/idfc.png?ref=main",
+      "git": "https://api.github.com/repos/microintel/fakeres/git/blobs/8142d1cb46326ec4bd044fede2240c525f289971",
+      "html": "https://github.com/microintel/fakeres/blob/main/icon/bicon/idfc.png"
+    }
+  },
+  {
+    "name": "indian.png",
+    "path": "icon/bicon/indian.png",
+    "sha": "06beac55ad86289282708dfa06c7bfcf8d9922ea",
+    "size": 5791,
+    "url": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/indian.png?ref=main",
+    "html_url": "https://github.com/microintel/fakeres/blob/main/icon/bicon/indian.png",
+    "git_url": "https://api.github.com/repos/microintel/fakeres/git/blobs/06beac55ad86289282708dfa06c7bfcf8d9922ea",
+    "download_url": "https://raw.githubusercontent.com/microintel/fakeres/main/icon/bicon/indian.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/indian.png?ref=main",
+      "git": "https://api.github.com/repos/microintel/fakeres/git/blobs/06beac55ad86289282708dfa06c7bfcf8d9922ea",
+      "html": "https://github.com/microintel/fakeres/blob/main/icon/bicon/indian.png"
+    }
+  },
+  {
+    "name": "iob.png",
+    "path": "icon/bicon/iob.png",
+    "sha": "e216332230449860a0d33493f2fe30dac9aa2041",
+    "size": 75178,
+    "url": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/iob.png?ref=main",
+    "html_url": "https://github.com/microintel/fakeres/blob/main/icon/bicon/iob.png",
+    "git_url": "https://api.github.com/repos/microintel/fakeres/git/blobs/e216332230449860a0d33493f2fe30dac9aa2041",
+    "download_url": "https://raw.githubusercontent.com/microintel/fakeres/main/icon/bicon/iob.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/iob.png?ref=main",
+      "git": "https://api.github.com/repos/microintel/fakeres/git/blobs/e216332230449860a0d33493f2fe30dac9aa2041",
+      "html": "https://github.com/microintel/fakeres/blob/main/icon/bicon/iob.png"
+    }
+  },
+  {
+    "name": "kotak.png",
+    "path": "icon/bicon/kotak.png",
+    "sha": "6721b75c3df5df34fc531c46330b754efef089b7",
+    "size": 63958,
+    "url": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/kotak.png?ref=main",
+    "html_url": "https://github.com/microintel/fakeres/blob/main/icon/bicon/kotak.png",
+    "git_url": "https://api.github.com/repos/microintel/fakeres/git/blobs/6721b75c3df5df34fc531c46330b754efef089b7",
+    "download_url": "https://raw.githubusercontent.com/microintel/fakeres/main/icon/bicon/kotak.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/kotak.png?ref=main",
+      "git": "https://api.github.com/repos/microintel/fakeres/git/blobs/6721b75c3df5df34fc531c46330b754efef089b7",
+      "html": "https://github.com/microintel/fakeres/blob/main/icon/bicon/kotak.png"
+    }
+  },
+  {
+    "name": "pnb.png",
+    "path": "icon/bicon/pnb.png",
+    "sha": "d24507f5b5fcbe980cac8659f59b84a7fc61277a",
+    "size": 21790,
+    "url": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/pnb.png?ref=main",
+    "html_url": "https://github.com/microintel/fakeres/blob/main/icon/bicon/pnb.png",
+    "git_url": "https://api.github.com/repos/microintel/fakeres/git/blobs/d24507f5b5fcbe980cac8659f59b84a7fc61277a",
+    "download_url": "https://raw.githubusercontent.com/microintel/fakeres/main/icon/bicon/pnb.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/pnb.png?ref=main",
+      "git": "https://api.github.com/repos/microintel/fakeres/git/blobs/d24507f5b5fcbe980cac8659f59b84a7fc61277a",
+      "html": "https://github.com/microintel/fakeres/blob/main/icon/bicon/pnb.png"
+    }
+  },
+  {
+    "name": "rbl.png",
+    "path": "icon/bicon/rbl.png",
+    "sha": "dad62332c806fd511ddbb38c69effe3fee134d70",
+    "size": 65006,
+    "url": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/rbl.png?ref=main",
+    "html_url": "https://github.com/microintel/fakeres/blob/main/icon/bicon/rbl.png",
+    "git_url": "https://api.github.com/repos/microintel/fakeres/git/blobs/dad62332c806fd511ddbb38c69effe3fee134d70",
+    "download_url": "https://raw.githubusercontent.com/microintel/fakeres/main/icon/bicon/rbl.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/rbl.png?ref=main",
+      "git": "https://api.github.com/repos/microintel/fakeres/git/blobs/dad62332c806fd511ddbb38c69effe3fee134d70",
+      "html": "https://github.com/microintel/fakeres/blob/main/icon/bicon/rbl.png"
+    }
+  },
+  {
+    "name": "union.png",
+    "path": "icon/bicon/union.png",
+    "sha": "8bcf74074efc36b6986465b2ca10d153e64b615e",
+    "size": 44270,
+    "url": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/union.png?ref=main",
+    "html_url": "https://github.com/microintel/fakeres/blob/main/icon/bicon/union.png",
+    "git_url": "https://api.github.com/repos/microintel/fakeres/git/blobs/8bcf74074efc36b6986465b2ca10d153e64b615e",
+    "download_url": "https://raw.githubusercontent.com/microintel/fakeres/main/icon/bicon/union.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/union.png?ref=main",
+      "git": "https://api.github.com/repos/microintel/fakeres/git/blobs/8bcf74074efc36b6986465b2ca10d153e64b615e",
+      "html": "https://github.com/microintel/fakeres/blob/main/icon/bicon/union.png"
+    }
+  },
+  {
+    "name": "yes.png",
+    "path": "icon/bicon/yes.png",
+    "sha": "a7943b6b45215583c2e0675fe84e1807263fd8aa",
+    "size": 16387,
+    "url": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/yes.png?ref=main",
+    "html_url": "https://github.com/microintel/fakeres/blob/main/icon/bicon/yes.png",
+    "git_url": "https://api.github.com/repos/microintel/fakeres/git/blobs/a7943b6b45215583c2e0675fe84e1807263fd8aa",
+    "download_url": "https://raw.githubusercontent.com/microintel/fakeres/main/icon/bicon/yes.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/yes.png?ref=main",
+      "git": "https://api.github.com/repos/microintel/fakeres/git/blobs/a7943b6b45215583c2e0675fe84e1807263fd8aa",
+      "html": "https://github.com/microintel/fakeres/blob/main/icon/bicon/yes.png"
+    }
+  }
+]
