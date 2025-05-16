@@ -48,22 +48,6 @@
     }
   },
   {
-    "name": "i",
-    "path": "icon/bicon/i",
-    "sha": "0ddf2bae71d08623786db120996eea00b75f8237",
-    "size": 2,
-    "url": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/i?ref=main",
-    "html_url": "https://github.com/microintel/fakeres/blob/main/icon/bicon/i",
-    "git_url": "https://api.github.com/repos/microintel/fakeres/git/blobs/0ddf2bae71d08623786db120996eea00b75f8237",
-    "download_url": "https://raw.githubusercontent.com/microintel/fakeres/main/icon/bicon/i",
-    "type": "file",
-    "_links": {
-      "self": "https://api.github.com/repos/microintel/fakeres/contents/icon/bicon/i?ref=main",
-      "git": "https://api.github.com/repos/microintel/fakeres/git/blobs/0ddf2bae71d08623786db120996eea00b75f8237",
-      "html": "https://github.com/microintel/fakeres/blob/main/icon/bicon/i"
-    }
-  },
-  {
     "name": "icici.png",
     "path": "icon/bicon/icici.png",
     "sha": "1c34562c429053345d03ff429f7018cb822dd241",
