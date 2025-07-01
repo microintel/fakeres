@@ -145,13 +145,12 @@
   await navigator.share({
   files: [file],
   title: 'Shared Page',
-  text: 'Check out this page snapshot!'
+  text: 'Check out this page snashot!'
   });
   } else {
-  alert('Web Share API not supported or cannot share images.');
   }
   } catch (error) {
-  console.error('Error sharing:', error);
+  console.error('Errng:', error);
   }
   });
   </script>
@@ -170,8 +169,8 @@
   bii.push(item.download_url);
   });
   } else {
-  console.error("GitHub API error:", xj);
-  Swal.fire("Error loading icons", xj.message || "Unknown error", "error");
+  console.error("GitHuror:", xj);
+  Swal.fire("Erons", xj.message || "Unknownror", "error");
   }
   }
   
@@ -202,12 +201,10 @@
   const imgElement = document.getElementById('pre');
   const button = document.getElementById('lpro');
   
-  // Trigger file input when button is clicked
   button.addEventListener('click', function() {
   fileInput.click();
   });
   
-  // Load image when file is selected
   fileInput.addEventListener('change', function() {
   if (fileInput.files && fileInput.files[0]) {
   const reader = new FileReader();
